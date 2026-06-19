@@ -1,0 +1,12 @@
+{
+  "name": "math-learning-platform",
+  "version": "1.0.0",
+  "description": "数学学习平台 - Math Learning Platform",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npx vite",
+    "build": "cd client && npx vite build",
+    "start": "cd server && node index.js"
+  }
+}
